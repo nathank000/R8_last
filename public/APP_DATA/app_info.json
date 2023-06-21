@@ -1,0 +1,162 @@
+{
+    "campaign": {
+        "title": "Sample Campaign",
+        "campaign_url" : "https://www.smapleCampaignUrl.com",
+        "campaign_chain" : "none",
+        "description": "This is a sample campaign",
+        "start_date": "2023-07-01",
+        "end_date": "2023-07-31",
+        "main_image": "https://example.com/campaign_main_image.png",
+        "wallet_logo": "https://example.com/wallet_logo.png",
+        "background_image": "https://example.com/background_image.png",
+        "requirements": {
+            "age": "18+",
+            "location": "Global",
+            "language": "English",
+            "other": "Must have a valid email address"
+        },
+        "organization": {
+            "title": "Sample Organization",
+            "description": "This is a sample organization",
+            "url": "https://example.com",
+            "image": "https://example.com/organization_image.png",
+            "bg_image": "https://example.com/organization_bg_image.png",
+            "TOS_url": "https://example.com/terms_of_service.html"
+        }
+    },
+    "steps": [
+        {
+            "title": "Loaded: Step 1",
+            "main_data": "(about) welcome, this is what this is and you have an opportunity to capture a limited edition token",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image1.png",
+            "left_explainer_data": "Explainer data for Step 1",
+            "left_explainer_image": "explainer_image1.png"
+        },
+        {
+            "title": "Verify",
+            "main_data": "(verifyMessage) - enter your phone number and we will verify with an SMS<p><input type=\"text\" value=\"Enter your Phone Number\" onChange={handleChange} placeholder=\"Enter your phone number\" /></p>",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image2.png",
+            "left_explainer_data": "Explainer data for Step 2",
+            "left_explainer_image": "explainer_image2.png"
+        },
+        {
+            "title": "Verify",
+            "main_data": "<h1>This is Step {step}</h1>(verify enter) enter the verification code you received<p><input type=\"text\" value={name} onChange={handleChange} placeholder=\"Enter the verification code\" /></p>",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image3.png",
+            "left_explainer_data": "Explainer data for Step 3",
+            "left_explainer_image": "explainer_image3.png"
+        },
+        {
+            "title": "Look Around",
+            "main_data": "(decide which token- not seen by user)<br/>(include 8th wall or similiar)<br/>open your phone and look around - floating AR thing!<br/>-- user taps to capture - then next step",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image4.png",
+            "left_explainer_data": "Explainer data for Step 4",
+            "left_explainer_image": "explainer_image4.png"
+        },
+        {
+            "title": "Found!",
+            "main_data": "<h1>This is Step {step}</h1>congratulations, you got a BLANK thing<br />(show the thing in a 3d viewer)<br /><img width=\"190\" src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?w=190' />",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image5.png",
+            "left_explainer_data": "Explainer data for Step 5",
+            "left_explainer_image": "explainer_image5.png"
+        },
+        {
+            "title": "Mint?",
+            "main_data": "show 'wallet' - this thing is now in your wallet<br />-- there is a 'MINT' option<br />-- user connects their actual wallet<br />-- estimate for mint provided - this will be 10 dollars!!<br />-- if the user has enough cash, a mint confirmation is displayed<br /><div class=\"row\"><div class=\"col-6 border bg-light\"><img src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?auto=compress&cs=tinysrgb&w=60' /><button class=\"m-2 btn btn-info btn-sm\">&nbsp; Mint to ETH<Safe class=\"m-2\" /></button></div>",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image6.png",
+            "left_explainer_data": "Explainer data for Step 6",
+            "left_explainer_image": "explainer_image6.png"
+        },
+        {
+            "title": "What's Next?",
+            "main_data": "how do I find more? <br />another tab to show participants/locations<br />",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image7.png",
+            "left_explainer_data": "Explainer data for Step 7",
+            "left_explainer_image": "explainer_image7.png"
+        }
+    ],
+    "token_options": [
+        {
+            "title": "Token 1",
+            "description": "This is the description for Token 1",
+            "asset_url": "https://example.com/token1.png",
+            "asset_thumbnail_sm": "https://example.com/token_thumb_sm1.png",
+            "asset_thumbnail_lrg": "https://example.com/token_thumb_lrg1.png",
+            "token_bg": "https://example.com/token1_bg.png",
+            "rarity": "Common",
+            "number_of_tokens": 1000
+        },
+        {
+            "title": "Token 2",
+            "description": "This is the description for Token 2",
+            "asset_url": "https://example.com/token2.png",
+            "asset_thumbnail_sm": "https://example.com/token_thumb_sm2.png",
+            "asset_thumbnail_lrg": "https://example.com/token_thumb_lrg2.png",
+            "token_bg": "https://example.com/token2_bg.png",
+            "rarity": "Rare",
+            "number_of_tokens": 500
+        },
+        {
+            "title": "Token 3",
+            "description": "This is the description for Token 3",
+            "asset_url": "https://example.com/token3.png",
+            "asset_thumbnail_sm": "https://example.com/token_thumb_sm3.png",
+            "asset_thumbnail_lrg": "https://example.com/token_thumb_3rg1.png",
+            "token_bg": "https://example.com/token3_bg.png",
+            "rarity": "Epic",
+            "number_of_tokens": 250
+        },
+        {
+            "title": "Token 4",
+            "description": "This is the description for Token 4",
+            "asset_url": "https://example.com/token4.png",
+            "asset_thumbnail_sm": "https://example.com/token_thumb_sm4.png",
+            "asset_thumbnail_lrg": "https://example.com/token_thumb_lrg4.png",
+            "token_bg": "https://example.com/token4_bg.png",
+            "rarity": "Legendary",
+            "number_of_tokens": 100
+        },
+        {
+            "title": "Token 5",
+            "description": "This is the description for Token 5",
+            "asset_url": "https://example.com/token5.png",
+            "asset_thumbnail_sm": "https://example.com/token_thumb_sm5.png",
+            "asset_thumbnail_lrg": "https://example.com/token_thumb_lrg5.png",
+            "token_bg": "https://example.com/token5_bg.png",
+            "rarity": "Mythic",
+            "number_of_tokens": 50
+        }
+    ],
+    "application_data": {
+        "totalSteps": 7,
+        "data_loaded": "finally"
+    }
+}

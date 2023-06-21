@@ -1,34 +1,27 @@
-# AFrame - React
+Originally built with Create React App before migration to Vite
 
-## Getting started
+## Available Scripts
 
-In a terminal, clone this repository and `cd` to this directory.
+In the project directory, you can run:
 
-Run `npm install && npm start` to install dependencies and launch the web app.
+### `npm start`
 
-Create a self-hosted project in the 8th Wall console. Add `localhost` and the web app IP address as connected domains. Add the project app key from project settings to the `xrweb` script in `public/index.html`.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Happy hacking!
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Note
+### `npm run build`
 
-The `start` script has been modified to serve via https (required for browsers to draw the camera feed). Optionally, [create a SSL certificate](https://www.freecodecamp.org/news/how-to-set-up-https-locally-with-create-react-app/) to remove the security warning.
+Builds the app for production to the `dist` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The `start`, `build`, and `test` scripts has been modified to use [react-app-rewired](https://github.com/timarney/react-app-rewired) so that we can add `html-loader` to the default webpack config via `config-overrides.js`.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-If you're developing on Windows, modify the `start` script in package.json to execute
-```
-set HTTPS=true&&react-app-rewired start
-```
+Use `npm run serve` or `npm run preview` to test the production build (functionality is the same for both)
 
-In order to use the [serve script](https://github.com/8thwall/web/tree/master/serve) for testing the production build, you may need to run `export NODE_OPTIONS=--openssl-legacy-provider`, and execute the script on the build folder.
+### `npm run lint`
 
-## Learn More
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-To learn 8th Wall, check out the [8th Wall documentation](https://www.8thwall.com/docs/web/)
+Runs eslint. Settings can be configured in `.eslintrc.cjs`
