@@ -28,6 +28,7 @@
         {
             "title": "Loaded: Step 1",
             "main_data": "(about) welcome, this is what this is and you have an opportunity to capture a limited edition token",
+            "main_custom_data": "this is the custom data for main which is echoed out as is",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -39,6 +40,7 @@
         {
             "title": "Verify",
             "main_data": "(verifyMessage) - enter your phone number and we will verify with an SMS<p><input type=\"text\" value=\"Enter your Phone Number\" onChange={handleChange} placeholder=\"Enter your phone number\" /></p>",
+            "main_custom_data": "this is the custom data for main which is echoed out as is",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -50,6 +52,7 @@
         {
             "title": "Verify",
             "main_data": "<h1>This is Step {step}</h1>(verify enter) enter the verification code you received<p><input type=\"text\" value={name} onChange={handleChange} placeholder=\"Enter the verification code\" /></p>",
+            "main_custom_data": "this is the custom data for main which is echoed out as is",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -61,6 +64,7 @@
         {
             "title": "Look Around",
             "main_data": "(decide which token- not seen by user)<br/>(include 8th wall or similiar)<br/>open your phone and look around - floating AR thing!<br/>-- user taps to capture - then next step",
+            "main_custom_data": "this is the custom data for main which is echoed out as is",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -72,6 +76,7 @@
         {
             "title": "Found!",
             "main_data": "<h1>This is Step {step}</h1>congratulations, you got a BLANK thing<br />(show the thing in a 3d viewer)<br /><img width=\"190\" src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?w=190' />",
+            "main_custom_data": "this is the custom data for main which is echoed out as is",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -83,6 +88,7 @@
         {
             "title": "Mint?",
             "main_data": "show 'wallet' - this thing is now in your wallet<br />-- there is a 'MINT' option<br />-- user connects their actual wallet<br />-- estimate for mint provided - this will be 10 dollars!!<br />-- if the user has enough cash, a mint confirmation is displayed<br /><div class=\"row\"><div class=\"col-6 border bg-light\"><img src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?auto=compress&cs=tinysrgb&w=60' /><button class=\"m-2 btn btn-info btn-sm\">&nbsp; Mint to ETH<Safe class=\"m-2\" /></button></div>",
+            "main_custom_data": "this is the custom data for main which is echoed out as is",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -94,6 +100,7 @@
         {
             "title": "What's Next?",
             "main_data": "how do I find more? <br />another tab to show participants/locations<br />",
+            "main_custom_data": "this is the custom data for main which is echoed out as is",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",

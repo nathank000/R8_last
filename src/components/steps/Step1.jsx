@@ -4,6 +4,8 @@ import {Utils} from '../../functions/componentFunctions';
 import ProgressHeader from '../ProgressHeader';
 import LeftColumn from '../LeftColumn';
 import BottomButtons from '../BottomButtons';
+import { AFrame } from 'aframe';
+import { AScene } from 'aframe';
 
 
 function Step1() {
@@ -30,6 +32,22 @@ function Step1() {
                 {/* https://www.pluralsight.com/guides/return-html-elements-in-json */}
                 
                 <div dangerouslySetInnerHTML={ {__html: stepMainData} } />
+
+                {step === 4 && (
+                  <>  
+                      aframe scene below
+                     <AScene
+                        vr-mode-ui="enabled: false"
+		                    embedded
+                        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: true;'>
+        
+                        <a-entity camera="active: true" look-controls wasd-controls position="0 1.6 0" data-aframe-default-camera>
+                          <a-entity gltf-model="./Assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: 18.03500205893282; latitude: -63.094682445833605;" animation-mixer/>
+                        </a-entity>
+                      </AScene>
+                  </>
+                )}
+
                 <div>
                 <BottomButtons />
                 </div>
