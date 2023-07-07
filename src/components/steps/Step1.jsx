@@ -17,29 +17,26 @@ function Step1() {
     let stepTitleText = APP_DATA.steps[thisStepArrayNum].title;
     let stepMainImage = APP_DATA.steps[thisStepArrayNum].main_data_image;
     let stepMainData = APP_DATA.steps[thisStepArrayNum].main_data;
+  }
 
     return (
-      <>
+      <div>
         {step === 1 && (
           <div class="main">
-            
             <ProgressHeader />
-            
             <div class="d-flex flex-nowrap">
-              <LeftColumn />
+            <LeftColumn />
               <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
-                <h1>This is Step { step }</h1>
+                <h1>This is Step {step}</h1>
                 <h1>data = {APP_DATA.campaign.title} </h1>
                 <h1>data = {APP_DATA.campaign.main_image} </h1>
-                (about_data) welcome, this is what this is and you have an opportunity to capture a limited edition token
-                <div>
-                  <BottomButtons />
-                </div>
+               <BottomButtons />
               </div>
+            </div>
           </div>
-        }
-      </>
-    ) 
-}
-
-export default Step1;
+      )}
+    </div>
+    );
+  }
+  
+  export default Step1;
