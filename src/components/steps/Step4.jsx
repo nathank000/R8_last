@@ -24,7 +24,7 @@ function Step4() {
           <pointLight position={ [10, 10, 0] }  />
           <ARMarker
             type={ "pattern" }
-            patternUrl={ "data/hiro.patt" }>
+            patternUrl={ "Assets/data/hiro.patt" }>
             <mesh>
               <boxBufferGeometry args={ [1, 1, 1] } />
               <meshStandardMaterial color={ "green" } />
