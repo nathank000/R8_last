@@ -12,11 +12,6 @@ function Step4() {
   return (
     <div>
     {step === 4 && (
-      <div class="main">
-        <ProgressHeader />
-        <div class="d-flex flex-nowrap">
-        <LeftColumn />
-          <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
           <a-scene
             tap-place
             landing-page="mediaSrc: https://media.giphy.com/media/UIQc7mECaH5nw0Y03Y/giphy.mp4"
@@ -61,19 +56,6 @@ function Step4() {
               position="0 -1 0">
             </a-entity>
           </a-scene>
-          
-          
-          
-          {/* <h1>This is Step {step}</h1>
-          (decide which token- not seen by user)<br/>
-          (include 8th wall or similiar)<br/>
-          open your phone and look around - floating AR thing!<br/>
-	          -- user taps to capture - then next step
-          <p>Hello, {name}!</p> */}
-          <BottomButtons />
-          </div>
-        </div>
-      </div>
     )}
     </div>
   );
