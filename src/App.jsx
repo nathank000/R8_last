@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react';
 import axios from 'axios';
 import StepsContext from './StepsContext';
+import 'aframe';
 
 //import { Utils } from './functions/componentFunctions';
 import { StepsProvider } from './StepsContext';
