@@ -4,8 +4,6 @@ import {Utils} from '../../functions/componentFunctions';
 import ProgressHeader from '../ProgressHeader';
 import LeftColumn from '../LeftColumn';
 import BottomButtons from '../BottomButtons';
-import { AFrame } from 'aframe';
-import { AScene } from 'aframe';
 
 
 function Step1() {
@@ -22,11 +20,11 @@ function Step1() {
     return (
       <div>
         {step === 1 && (
-          <div class="main">
+          <div className="main">
             <ProgressHeader />
-            <div class="d-flex flex-nowrap">
+            <div className="d-flex flex-nowrap">
             <LeftColumn />
-              <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
+              <div className="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
                 <h1>This is Step {step}</h1>
                 <h1>data = {APP_DATA.campaign.title} </h1>
                 <h1>data = {APP_DATA.campaign.main_image} </h1>

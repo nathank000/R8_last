@@ -9,7 +9,7 @@ function ProgressHeader() {
   const totalSteps = APP_DATA.steps;
 
   return (
-    <div class="d-flex"
+    <div className="d-flex"
     style={{
       height:60,
       backgroundImage: "url(" + "./assets/headerBG.jpg" + ")",
@@ -27,7 +27,7 @@ function ProgressHeader() {
           itemClass = "p-2 highlight flex-grow-1 badge bg-dark"
           stepText += " - " +APP_DATA.steps[index-1].title;
         }
-          return <div class={itemClass} style={{height:30,margin:10}}>{ stepText }</div>
+          return <div className={itemClass} style={{height:30,margin:10}}>{ stepText }</div>
       })}
 
       </div>
