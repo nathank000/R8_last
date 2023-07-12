@@ -12,10 +12,7 @@ function Step4() {
   const { step, setStep, name } = useContext(StepsContext);
 
   {step === 4 && (
-    ReactDOM.render(
-       <h1>F O U R</h1>
-        document.getElementById("root")
-    )
+      <h1>F O U R</h1>
   )}
 }
 
