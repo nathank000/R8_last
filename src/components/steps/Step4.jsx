@@ -5,6 +5,7 @@ import ProgressHeader from '../ProgressHeader';
 import LeftColumn from '../LeftColumn';
 import BottomButtons from '../BottomButtons';
 import 'aframe';
+import 'arjs';
 
 function Step4() {
   const { step, setStep, name } = useContext(StepsContext);
