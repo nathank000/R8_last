@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "aframe": "^1.4.2",
-    "@ar-js-org/ar.js": "https://github.com/AR-js-org/AR.js.git#c73e90d9732efa84b6d68a51710887ab98d9da5f",
     "axios": "^1.4.0",
     "bootstrap": "^5.3.0",
     "core-js": "^3.31.1",

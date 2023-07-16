@@ -5,7 +5,6 @@ import ProgressHeader from '../ProgressHeader';
 import LeftColumn from '../LeftColumn';
 import BottomButtons from '../BottomButtons';
 import 'aframe';
-import 'arjs';
 
 function Step4() {
   const { step, setStep, name } = useContext(StepsContext);
@@ -21,7 +20,7 @@ function Step4() {
               <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
                 <h1>This is Step {step}</h1>
                 (verify enter) enter the verification code you received
-                <a-scene embedded={true}>
+                <a-scene embedded>
                   <a-box
                     position="-1 0.5 -3"
                     rotation="0 45 0"
