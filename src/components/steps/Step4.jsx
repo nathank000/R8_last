@@ -6,6 +6,8 @@ import LeftColumn from '../LeftColumn';
 import BottomButtons from '../BottomButtons';
 import ReactDOM from "react-dom"
 import 'aframe';
+import 'arjs';
+
 
 
 function Step4() {
@@ -22,7 +24,7 @@ function Step4() {
           <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
           <h1>This is Step {step}</h1>
           (verify enter) enter the verification code you received
-          <a-scene>
+          <a-scene embedded>
             <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
             <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
             <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
