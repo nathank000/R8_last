@@ -6,6 +6,8 @@ import LeftColumn from '../LeftColumn';
 import BottomButtons from '../BottomButtons';
 import ReactDOM from "react-dom"
 import 'aframe';
+import 'arjs';
+
 
 function Step4() {
   const { step, setStep, name } = useContext(StepsContext);
